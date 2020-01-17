@@ -22,4 +22,12 @@ data.forEach(info => {
     object.appendChild(Header(info));
 })
 
-function Header() {}
+function Header(item) {
+
+    //Define new elements
+
+    const header = document.createElement('div');,
+          date = document.createElement('span');,
+          title = document.createElement('h1');,
+          temp = document.createElement('span');  
+}
