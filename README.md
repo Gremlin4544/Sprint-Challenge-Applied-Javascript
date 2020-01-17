@@ -29,21 +29,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+The DOM stands for Document Object Model. Document refers to the web page, Object referes to the elements such as <head> or <h1> (also known as Nodes) and the Model is the layout or tree of the elements on the web page.
 
 2. What is an event?
+An event is actions that a user can make on the web page such as a click, key press or the submit on a button.
 
 3. What is an event listener?
+An event listener creates a response to different elements that have events added to them.
 
 4. Why would we convert a NodeList into an Array?
+You would convert a NodeList into an Array so that you can use the .forEach method
 
 5. What is a component?
+A component is a block of code that is reusable and usally consists of HTML, CSS and JS.
 
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
