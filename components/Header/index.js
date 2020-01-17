@@ -9,4 +9,17 @@
 //  </div >
 // And add it to the DOM in the .header-container component
 
+const data = [
+    {
+        date: 'MARCH 28, 2019',
+        title: 'Lambda Times',
+        temp: '98°'
+    },
+]
+
+const object = document.querySelector('.header-container')
+data.forEach(info => {
+    object.appendChild(Header(info));
+})
+
 function Header() {}
